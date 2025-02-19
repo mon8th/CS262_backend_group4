@@ -1232,3 +1232,56 @@ h6 {
   font-size: 13px;
   color: #012970;
 }
+
+.pagination {
+    justify-content: center;
+    padding: 1rem 0;
+  }
+
+  .pagination .page-item .page-link {
+    color: #007bff;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    margin: 0 2px;
+  }
+
+  .pagination .page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+
+  .pagination .page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    background-color: #fff;
+    border-color: #dee2e6;
+  }
+
+
+  .info-card .icon {
+    font-size: 24px;
+    color: #007bff;
+  }
+  .info-card h6 {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  .info-card p {
+    margin-bottom: 0;
+    color: #6c757d;
+  }
+  .contact .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .contact-list .list-group-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .contact-list .list-group-item h6 {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
